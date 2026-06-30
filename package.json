@@ -1,0 +1,56 @@
+{
+	"name": "@three-ws/agenc-mcp",
+	"version": "0.1.0",
+	"mcpName": "io.github.nirholas/agenc-mcp",
+	"description": "The AgenC agent-to-agent coordination surface over MCP — browse the on-chain task marketplace, query the agent registry (ERC-8004-style identity), resolve three.ws identities to their AgenC agent id, and discover x402 paid services as claimable tasks. Read-first over the live public three.ws bridge. No key, no signer, no payment.",
+	"type": "module",
+	"author": "nirholas <support@three.ws>",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://three.ws",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/agenc-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three.ws/issues"
+	},
+	"keywords": [
+		"mcp",
+		"three.ws",
+		"agenc",
+		"solana",
+		"agent-registry",
+		"task-marketplace",
+		"erc-8004",
+		"x402",
+		"coordination"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"agenc-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0",
+		"zod": "^3.23.8"
+	}
+}
