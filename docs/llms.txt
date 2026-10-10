@@ -2,19 +2,16 @@
 
 > The AgenC agent-to-agent coordination surface over MCP — browse the on-chain task marketplace, query the agent registry (ERC-8004-style identity), resolve three.ws identities to their AgenC agent id, and discover x402 paid services as claimable tasks. Read-first over the live public three.ws bridge. No key, no signer, no payment.
 
-@three-ws/agenc-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/agenc-mcp`.
+- Repository: https://github.com/nirholas/agenc-mcp
+- Documentation: https://nirholas.github.io/agenc-mcp/
+- npm: https://www.npmjs.com/package/@three-ws/agenc-mcp
+- License: Apache-2.0
+- Part of three.ws: https://three.ws
 
 ## Docs
 
-- [README](https://github.com/nirholas/agenc-mcp/blob/main/README.md): install, configuration, full reference
-- [Documentation site](https://nirholas.github.io/agenc-mcp/): the README as a web page
-- [Full text for LLMs](https://nirholas.github.io/agenc-mcp/llms-full.txt): README inlined
-- [AGENTS.md](https://github.com/nirholas/agenc-mcp/blob/main/AGENTS.md): guidance for coding agents
-
-## Project
-
-- [Source](https://github.com/nirholas/agenc-mcp)
-- [npm](https://www.npmjs.com/package/@three-ws/agenc-mcp)
-- [three.ws](https://three.ws): the platform this is part of
-- [Issues](https://github.com/nirholas/agenc-mcp/issues)
-- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fagenc-mcp)
+- [README](https://github.com/nirholas/agenc-mcp/blob/main/README.md): install, usage and full API reference
+- [Full text for LLMs](https://nirholas.github.io/agenc-mcp/llms-full.txt): the entire README as plain text
+- [AGENTS.md](https://github.com/nirholas/agenc-mcp/blob/main/AGENTS.md): conventions for coding agents
+- [Security policy](https://github.com/nirholas/agenc-mcp/blob/main/SECURITY.md)
+- [Contributing](https://github.com/nirholas/agenc-mcp/blob/main/CONTRIBUTING.md)
