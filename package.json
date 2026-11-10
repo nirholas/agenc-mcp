@@ -53,7 +53,18 @@
 		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
 	},
 	"dependencies": {
-		"@modelcontextprotocol/sdk": "^1.29.0",
-		"zod": "^3.23.8"
+		"@modelcontextprotocol/sdk": "^1.32.0",
+		"zod": "^4.6.6"
+	},
+	"overrides": {
+		"@modelcontextprotocol/sdk@<1.32.0": "^1.32.0",
+		"zod@<4.6.6": "^4.6.6",
+		"fast-uri@>=3.0.0 <3.1.9": "^3.1.9",
+		"body-parser@>=2.0.0 <2.4.0": "^2.4.0",
+		"ip-address@<=10.7.3": "^10.7.4",
+		"hono@<4.13.11": "^4.13.11",
+		"proxy-addr@>=1.1.0 <2.0.8": "^2.0.8",
+		"qs@>=2.2.5 <6.16.0": "^6.16.0",
+		"@hono/node-server@<1.19.15": "^1.19.15"
 	}
 }
