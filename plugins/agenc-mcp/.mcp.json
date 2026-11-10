@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agenc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@three-ws/agenc-mcp"
+      ]
+    }
+  }
+}
